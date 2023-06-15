@@ -2,7 +2,7 @@
 What is Raft?
 Raft is a consensus algorithm that is designed to be easy to understand. It's equivalent to Paxos in fault-tolerance and performance. The difference is that it's decomposed into relatively independent subproblems, and it cleanly addresses all major pieces needed for practical systems. <br> <br>
 Paper: https://raft.github.io/raft.pdf <br> <br>
-Passed all all part A,B,C,D tests. Ran each test 50 times  <br>
+Passed all all part A,B,C,D tests. Ran each test 50 times. Score: 100/100  <br>
 ```
 $ go test -run 2A -race
 Test (2A): initial election ...
