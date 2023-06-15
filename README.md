@@ -11,7 +11,7 @@ PASS
 ok      raft    10.187s
 ```
 ```
-$ time go test -run 2B
+$ go test -run 2B
 Test (2B): basic agreement ...
   ... Passed --   1.6  3   18    5158    3
 Test (2B): RPC byte count ...
@@ -31,9 +31,6 @@ Test (2B): RPC counts aren't too high ...
 PASS
 ok      raft    58.142s
 
-real    0m58.475s
-user    0m2.477s
-sys     0m1.406s
 ```
 
 ```
