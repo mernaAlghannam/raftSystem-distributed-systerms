@@ -1,6 +1,6 @@
 # Raft
 
-Passed all all part A,B,C,D tests.  <br>
+Passed all all part A,B,C,D tests. Ran each test 50 times  <br>
 ```
 $ go test -run 2A -race
 Test (2A): initial election ...
